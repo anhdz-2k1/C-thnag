@@ -1,0 +1,165 @@
+﻿<Page
+    x:Class="U21HamburgerHeavenChallenge.Financial"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:U21HamburgerHeavenChallenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer HorizontalScrollMode="Auto">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="Assets/Financial1.jpg"
+                       Grid.Row="0" 
+                        Stretch="UniformToFill"
+                        Width="720"
+                        Height="600"
+                        Margin="10,10,5,10"                 
+                       />
+                <TextBlock Text="Typi non habent claritatem insitam"
+                           Grid.Row="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"
+                           FontSize="28" Margin="40,0,0,100"
+                           Foreground="Black"
+                           FontWeight="Bold"/>
+                <Ellipse Width="20"
+                         Height="20"
+                         Fill="Black"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Bottom" 
+                         Margin="40,0,0,60"/>
+                <TextBlock Text="processus"
+                           FontSize="20"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"
+                            Margin="70,0,0,60"
+                           Foreground="Black"/>
+
+                <Image Source="Assets/Financial2.jpg"
+                       Grid.Row="0"
+                       Grid.Column="1"
+                       Stretch="UniformToFill"
+                        Width="720"
+                        Height="600"
+                        Margin="10,10,5,10"                 
+                       />
+                <TextBlock Text="Fusce Eu rutrum"
+                           Grid.Row="0"
+                           Grid.Column="1"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"
+                           FontSize="28" Margin="40,0,0,100"
+                           Foreground="Black"
+                           FontWeight="Bold"/>
+                <Ellipse Width="20"
+                         Height="20"
+                         Grid.Column="1"
+                         Fill="Black"
+                         HorizontalAlignment="Left"
+                         VerticalAlignment="Bottom" 
+                         Margin="40,0,0,60"/>
+                <TextBlock Text="Eotrum"
+                           FontSize="20"
+                           Grid.Column="1"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"
+                            Margin="70,0,0,60"
+                           Foreground="Black"/>
+
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="Assets/Financial4.jpg"
+                           Grid.Row="0"
+                           Grid.Column="0"
+                           Height="240"
+                           Stretch="UniformToFill"
+                           Margin="15,10,10,15"/>
+                    <Border Margin="15,260,10,15" FocusVisualPrimaryBrush="White" Background="#FFF" Grid.RowSpan="2">
+                        <TextBlock Text="Anteposuerit litterarum formas abc xyz " TextWrapping="Wrap" Foreground="Black" FontSize="24" Margin="5,15,15,5" HorizontalAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="Assets/Financial2.jpg"
+                           Grid.Row="0"
+                           Grid.Column="0"
+                           Height="240"
+                           Stretch="UniformToFill"
+                           Margin="15,10,10,15"/>
+                    <Border Margin="15,260,10,15" FocusVisualPrimaryBrush="White" Background="#FFF" Grid.RowSpan="2">
+                        <TextBlock Text="Anteposuerit litterarum formas abc xyz " TextWrapping="Wrap" Foreground="Black" FontSize="24" Margin="5,15,15,5" HorizontalAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Image Source="Assets/Financial3.jpg"
+                           Grid.Row="0"
+                           Grid.Column="0"
+                           Height="240"
+                           Stretch="UniformToFill"
+                           Margin="15,10,10,15"/>
+                    <Border Margin="15,260,10,15" FocusVisualPrimaryBrush="White" Background="#FFF" Grid.RowSpan="2">
+                        <TextBlock Text="Anteposuerit litterarum formas abc xyz " TextWrapping="Wrap" Foreground="Black" FontSize="24" Margin="5,15,15,5" HorizontalAlignment="Center"/>
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Column="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Border Margin="15,35,15,20" FocusVisualPrimaryBrush="White" Background="#FFF" Grid.Row="0">
+                        <TextBlock Text="Lorem feugiat ipsum lobortis magna duis et at et sanctus euismod sanctus wewe eqwewqe eqweqweqw wqeqwe " TextWrapping="Wrap" Foreground="Black" FontSize="22" HorizontalAlignment="Left" Margin="10,0,0,0" />
+
+                    </Border>
+                    <Ellipse Grid.Row="0" 
+                             Fill="Red"
+                             Height="15" 
+                             Width="15"
+                             HorizontalAlignment="Left"
+                             VerticalAlignment="Top"
+                             Margin="30,190,0,10"
+                             />
+                    <TextBlock FontSize="18" Foreground="Black" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,43">
+                        Class eit
+                    </TextBlock>
+                    <Border Margin="15,10,15,20" FocusVisualPrimaryBrush="White" Background="#FFF" Grid.Row="1">
+                        <TextBlock Text="Anteposuerit litterarum formas abc xyz " TextWrapping="Wrap" Foreground="Black" FontSize="22"  HorizontalAlignment="Center"/>
+                    </Border>
+                </Grid>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>
+
